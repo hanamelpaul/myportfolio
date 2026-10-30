@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #172033;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 18px 0;
+}
+
+.navlink {
+    font-weight: 500;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #4f46e5;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background: #dbe1f4,;
+    padding: 60px 0;
+}
+
+
+/* Buttons */
+
+.mainbtn {
+    display: inline-block;
+    background-color: #4f46e5;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.mainbtn:hover {
+    background-color: #3730a3;
+    color: white;
+}
+
+.secondarybtn {
+    display: inline-block;
+    color: #4f46e5;
+    border: 1px solid #4f46e5;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+/* Profile Circle */
+
+.profilecircle {
+    width: 250px;
+    height: 250px;
+    background-color: #e0e7ff;
+    border: 8px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Common Section */
+
+.sectionpadding {
+    padding: 80px 0;
+}
+
+.sectiontitle {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+
+/* Skills */
+
+.skill {
+    display: inline-block;
+    background-color: #eef2ff;
+    color: #3730a3;
+    padding: 12px 18px;
+    border-radius: 6px;
+    margin: 7px;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background-color: #4f46e5;
+    color: white;
+}
+
+
+/* Projects */
+
+.projectcard {
+    background-color: white;
+    padding: 30px;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+
+.projectcard:hover {
+    transform: translateY(-8px);
+}
+
+.projectcard h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.projectcard p {
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.projectcard a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #111827;
+    color: white;
+    padding: 25px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .sectionpadding {
+        padding: 55px 0;
+    }
+
+    .navbar-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profilecircle {
+        width: 200px;
+        height: 200px;
+    }
+
+}
